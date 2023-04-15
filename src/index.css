@@ -1,0 +1,73 @@
+/* #navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+#navbar-container{
+  border-bottom: 3px solid rgba(128, 128, 128, 0.114);
+}
+
+#nav-logo{
+  text-align: center;
+  height: 20vh;
+  margin-top: 70px;
+}
+
+#nav-logo #img1{
+  height: 20vh;
+  width: 8%;
+}
+
+#nav-logo #img2{
+  height: 20vh;
+  width: 50%;
+}
+/* 
+.nav-links{
+  text-align: center;
+} */
+
+.nav-links>*{
+  margin: 0 10px;
+}
+
+.nav-links>*:hover{
+  background-color: rgba(128, 128, 128, 0.114);
+  /* color: white; */
+  border-radius: 5px;
+} 
+
+#carousel{
+  height: 35vh;
+  /* border: 1px solid black; */
+}
+
+#carousel img{
+  height: 35vh;
+}
+
+#about{
+  height: 35vh;
+}
+
+#dynamic-container{
+  /* background-image: url("https://previews.123rf.com/images/aunaauna/aunaauna1501/aunaauna150100075/35874658-textile-texture-background-seamless-pattern-for-web-design-desktop-wallpaper-or-website.jpg"); */
+  background-color: rgba(240, 248, 255, 0.362);
+  padding: 5px;
+  margin-top: 2px;
+}
+
+/* #dynamic-container::before {    
+  content: "";
+  background-image: url('https://previews.123rf.com/images/aunaauna/aunaauna1501/aunaauna150100075/35874658-textile-texture-background-seamless-pattern-for-web-design-desktop-wallpaper-or-website.jpg');
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+} */
