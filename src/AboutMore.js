@@ -2,7 +2,7 @@ import React from 'react'
 
 function AboutMore() {
   return (
-    <div>
+    <div style={{textAlign: 'center'}}>
         <h4>ABOUT DELHI HINDUSTANI MERCHANTILE ASSOCIATION</h4>
         <p>
             Delhi Hindustani Merchantile Association is an association of Cloth Traders, Textile Mill Owners, Bankers, Transporters and Importers working from more than 125 years. DHMA has got a history of more than 125 years but the official records are available only from 1893 when DHMA came into force on papers. Its formation was during the British rule in India.  In the British rule the name Dehli Hindustani Merchantile Association was a matter of Pride as using the word HINDUSTANI in British rule was for an association was really daring and commendable for which we traders will never forget the dareness of our forefathers.

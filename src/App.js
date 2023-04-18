@@ -11,8 +11,13 @@ import profiles from './Profiles';
 import AboutMore from './AboutMore';
 import History from './History';
 import {Routes, Route} from 'react-router-dom';
+import Footer2 from './Footer2';
 import Footer from './Footer';
-
+import Magazine from './Magazine';
+import Arbitration from './Arbitration';
+import Constitution from './Constitution';
+import Download from './Download';
+import ContactUs from './ContactUs';
 
 function App() {
 
@@ -43,7 +48,7 @@ function App() {
           <Route path='/about' element={
             <>            
             <div style={{width: '100%', height: 50}} className="bg-white mb-4">
-              <h4 style={{textAlign: 'center'}} className='p-2'>About</h4>
+              <h4 style={{textAlign: 'center'}} className='p-2'>ABOUT</h4>
             </div>
             <AboutMore />
             </>
@@ -139,36 +144,21 @@ function App() {
           <Route path='/1969 to 1993' element={<History index={3} />}></Route>
           <Route path='/1994 to 1999' element={<History index={4} />}></Route>
           <Route path='/2000 to Till Date' element={<History index={5} />}></Route>
+          <Route path='/magazine' element={<Magazine />}></Route>
+          <Route path='/arbitration' element={<Arbitration />}></Route>
+          <Route path='/constitution' element={<Constitution />}></Route>
+          <Route path='/download' element={<Download />}></Route>
+          <Route path='/contactus' element={<ContactUs />}></Route>
 
         </Routes>
       
       </Container>
       <Container className='mt-5'>
-        <Footer />
+        {/* <Footer /> */}
+        <Footer2 />
       </Container>
     </>
   )
 }
 
 export default App;
-
-{/* <Container className='mt-2'>
-          <AboutMore />
-        </Container> */}
-
-        {/* <Container className='mt-2'>
-          {flag?
-            <Row>
-              <Col lg={{ span: 8, offset: 2 }}>
-                <Profile data={profiles[index]}/>
-              </Col>
-            </Row>
-            
-            :
-            <Row>
-              {profiles.map((item, i) => {
-                return <Middle data={item} key={index} setFlag={setFlag} setIndex={setIndex} index={i} />
-              })}
-            </Row>
-          }
-        </Container> */}

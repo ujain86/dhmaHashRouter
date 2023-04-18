@@ -34,22 +34,19 @@
 
 #carousel{
   height: 40vh;
-  /* border: 1px solid black; */
 }
 
-@media (max-width: 767px) {
-    #carousel {
-      display: none;
-    }
-  }
 
 #carousel img{
   height: 40vh;
+  border-radius: 10px;
   /* width: 150%; */
 }
 
 #about{
   height: 40vh;
+  background-color: rgba(170, 42, 63, 0.333);
+  border-radius: 10px;
 }
 
 #card{
@@ -59,14 +56,34 @@
 }
 
 #dynamic-container{
-  /* background-image: url("https://previews.123rf.com/images/aunaauna/aunaauna1501/aunaauna150100075/35874658-textile-texture-background-seamless-pattern-for-web-design-desktop-wallpaper-or-website.jpg"); */
   background-color: rgba(240, 248, 255, 0.51);
   padding: 5px;
   margin-top: 2px;
 }
 
 #footer{
-  height: 20vh;
+  background-color: rgba(128, 128, 128, 0.036);
+}
+
+#footer-divider{
+  border: 2px solid rgba(128, 128, 128, 0.114);
+  margin-bottom: 5px;
   width: 100%;
-  border: 1px solid black;
+}
+
+@media (max-width: 767px) {
+  .download-table {
+    width: 100%;
+  }
+  #carousel {
+    display: none;
+  }
+  #img1{
+    width: 100%;
+  }
+  #img2{
+    height: 0vh;
+    width: 0%;
+    display: none;
+  }
 }

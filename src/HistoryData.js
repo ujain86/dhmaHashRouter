@@ -147,7 +147,7 @@ var history = [
   <p align="justify">Centenary Celebrations completed  with an elaborate colorful function at FICCI Auditorium on Wednesday 23 March  1994. The function was inaugurated by Honorable Lieutenant Governor of Delhi  Shri P.K. Dave, Shri Rajesh Pilot State Minister for Home Affairs graced the  occasion as Chief Guest.</p>
   <p align="justify">On the occasion Association  honored the Business Organization and Firms which are members for more than 50  years and also honored the executive members who have been serving the  organization for more that 25 years.</p>
   <p align="center"><strong>LIST OF MEMBERS WITH MORE THAN 50 YEARS OLD MEMBERSHIP</strong></p>
-  <table width="1000" border="1" cellspacing="0" cellpadding="0">
+  <table  align="center" width="800" border="1" cellspacing="0" cellpadding="0">
     <tr>
       <td width="40">1.</td>
         <td width="477"><ol>

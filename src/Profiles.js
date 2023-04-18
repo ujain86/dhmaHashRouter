@@ -18,7 +18,7 @@ var profiles =[
     ],
     [
         {"Designation" : 	"General Secretary -D.H.M.A."},
-        {"image" : "images/Profile_Pics/ShriBhagwan_Bansal.jpg"},
+        {"image" : "images/Profile_Pics/ShriBhagwan_Bansal.jpeg"},
         {"Name" : "Sh. Shribhagwan Bansal"},
         {"Father's Name" :	"Late Sh. Krishan Kumar Bansal"},
         {"Date of Birth" :	"20/09/1963"},
@@ -49,7 +49,7 @@ var profiles =[
     ],
     [
         {"Designation" : 	"Vice President-D.H.M.A."},
-        {"image" : "images/Profile_Pics/Suman_Aneja.jpg"},
+        {"image" : "images/Profile_Pics/Suman_Aneja.jpeg"},
         {"Name" :	"Sh. Suman Aneja"},
         {"Father's Name" :	"Late. Sohan Lal Aneja"},
         {"Resident Address" :	"B-2/206, Pashchim Vihar, Delhi-63"},

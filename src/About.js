@@ -3,7 +3,7 @@ import {Container, Button} from 'react-bootstrap';
 
 function About() {
   return (
-    <Container className="bg-warning p-3" id="about">
+    <Container className="p-3" id="about">
         <h3>About DHMA</h3>
         <p>
             Delhi Hindustani Merchantile Association is an association of Cloth Traders, Textile Mill Owners, Bankers, Transporters and Importers working from more than 125 years. DHMA has got a history of more than 125 years but the official records are available only from 1893 when DHMA came into force on papers. Its formation was during the British rule in India.

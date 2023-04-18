@@ -28,19 +28,20 @@ function NavigationBar() {
                    
                     
                 </NavDropdown>
-                <Nav.Link href="https://dhmatextileassociation.com/completemc.pdf">MC</Nav.Link>
+                <Nav.Link href="pdf/completemc.pdf">MC</Nav.Link>
                 <NavDropdown title="History" id="basic-nav-dropdown">
                     {history.map((item) => {
                         return <>
                             <NavDropdown.Item href={item.year}>{item.year}</NavDropdown.Item>
-                            <Dropdown.Divider />
+                            {/* <Dropdown.Divider /> */}
                         </>
                     })}                   
                 </NavDropdown>
-                <Nav.Link href="#link">Magzine</Nav.Link>
-                <Nav.Link href="#link">Arbitration</Nav.Link>
-                <Nav.Link href="#link">Events</Nav.Link>
-                <Nav.Link href="#link">Constitution</Nav.Link>
+                <Nav.Link href="/magazine">Magazine</Nav.Link>
+                <Nav.Link href="/arbitration">Arbitration</Nav.Link>
+                <Nav.Link href="/constitution">Constitution</Nav.Link>
+                <Nav.Link href="/download">Download</Nav.Link>
+                <Nav.Link href="/contactus">Contact Us</Nav.Link>
             </Nav>
             </Navbar.Collapse>
             

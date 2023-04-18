@@ -11,7 +11,7 @@ function Profile(props) {
             <h4 style={{textAlign: 'center'}} className='p-2'>Profile of {props.data[2].Name}</h4>
         </div>
         <div style={{textAlign: 'center'}}>
-            <img src={props.data[1].image} style={{height: 200, width: 200,}} alt='image'></img>
+            <img src={props.data[1].image} style={{height: 200, width: 200, borderRadius: 10}} alt='image'></img>
         </div>
         <Table hover className='mt-4'>
         {/* <thead>
