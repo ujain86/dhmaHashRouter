@@ -3,27 +3,34 @@ import {Table} from 'react-bootstrap';
 
 function Profile(props) {
 
-    console.log("data :", props.data[0].image);
+    // console.log("data :", props.data[1].image);
 
   return (
     <>
-        <div>
-            <img src='C:\Users\Admin\Desktop\React2\dhma\src\Mukesh_Sachdeva.jpg' alt='image'></img>
+        <div style={{width: '100%', height: 50}} className="bg-white mb-4">
+            <h4 style={{textAlign: 'center'}} className='p-2'>Profile of {props.data[2].Name}</h4>
         </div>
-        <Table hover >
-        <thead>
+        <div style={{textAlign: 'center'}}>
+            <img src={props.data[1].image} style={{height: 200, width: 200,}} alt='image'></img>
+        </div>
+        <Table hover className='mt-4'>
+        {/* <thead>
             <tr>
-            <th colSpan={2}>Profile of {props.data[1].Name}</th>
+            <th colSpan={2}>Profile of {props.data[2].Name}</th>
             </tr>
-        </thead>
+        </thead> */}
         <tbody>
-            {props.data.map((item) =>  {
+            {props.data.map((item, index) =>  {
+                if(index==1){
+                    return;
+                }
+                else{
                 return(
                     <tr>
                         <td>{Object.keys(item)}</td>
                         <td>{Object.values(item)}</td>
                     </tr>
-                )
+                )}
             })}
             {/* <tr>
             <td>1</td>

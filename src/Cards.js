@@ -3,25 +3,27 @@ import {Card, Button} from 'react-bootstrap';
 
 function Cards(props) {
 
-  var {name, setFlag, setIndex, index} = props;
+  var {data, setFlag, setIndex, setName, index} = props;
 
   const handleClick = () => {
-    setFlag(true);
-    setIndex(index);
-
+    // setFlag(true);
+    // setIndex(index);
+    // setName("/"+ data[1].Name);    
+    window.location.href="/"+ data[2].Name;
+    
   }
+
   return (
-    <Card>
-      <Card.Img variant="top" src="https://dhmatextileassociation.com/images/aa.png" style={{height: 100, width: 100,}} className='m-2'/>
-      <Card.Body>
-        <Card.Title>{name}</Card.Title>
-        {/* <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text> */}
+    <div id='card'>
+      <img src={data[1].image} style={{height: 200, width: 200, marginRight: 20, borderRadius: 10}}></img>
+      
+      <div className='mt-4'>
+        <h6>{data[0].Designation}</h6>
+        <p>{data[2].Name}</p>
         <Button variant="outline-primary" onClick={handleClick}>More</Button>
-      </Card.Body>
-    </Card>
+      </div>
+      
+    </div>
   )
 }
 

@@ -8,11 +8,11 @@ function Middle(props) {
 
     // console.log("props: ",props);
 
-    var {setFlag, setIndex, index} = props;
+    var {data, setFlag, setIndex, setName, index} = props;
 
   return (
     <Col lg={4} style={{marginBottom: 10}}>
-        <Cards name={props.data[1].Name} setFlag={setFlag}  setIndex={setIndex} index={index} />
+        <Cards data={data} setFlag={setFlag}  setIndex={setIndex} index={index} setName={setName} />
     </Col>
   )
 }
